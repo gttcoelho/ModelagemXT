@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A109E0E1-1203-D8BD-1600-5759CDA04A6C" mainViewID="33F326F9-B37C-5F05-0417-AB3450D4E2B1">
-<createdBy>Usuario</createdBy>
-<createdTime>2022-03-08 16:26:39 UTC</createdTime>
-<ownerDesignName>trabteste</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
