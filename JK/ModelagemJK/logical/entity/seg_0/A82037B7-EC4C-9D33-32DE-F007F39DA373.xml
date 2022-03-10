@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -88,5 +87,45 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="endereço_ativo" id="454113C3-DD26-9840-5283-F12C55893222">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:44:37 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_empresa" id="EC8363AC-1389-F08D-7417-549F0375722A">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:10:30 UTC</createdTime>
+<generatorID>7F12FBD8-376B-CA6E-0CD6-0EA1FCA0F2D8</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>8DDB6A8F-B331-20C7-1C10-91AC788EF5F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D17FFB9C-62D1-9A9C-0A29-D8B457F4EBA1" name="T_SAJK_Endereço PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:36:33 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3CAF757C-3E8E-D6AC-4D3A-488A9EFBBAF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

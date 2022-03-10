@@ -39,5 +39,46 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cliente" id="42BF6790-6642-5884-0BB3-676C3E0A0390">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 19:48:48 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ramo" id="736D9C97-A352-6D41-A38A-25BDDC18BBC5">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:10:41 UTC</createdTime>
+<generatorID>CD6A4EB4-517D-0B8F-78BA-6AF1653AAB59</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>2B0D9591-7634-B79E-7DC1-D15AEA8EF0BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5EAAB18-0CBC-62EB-F8E8-57A0740A8F0E" name="T_SAJK_Empresa PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:10:29 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DDB6A8F-B331-20C7-1C10-91AC788EF5F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
