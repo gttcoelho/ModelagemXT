@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E78BD62-F278-588C-C3DA-E70B67A5B817" name="T_SAJK_Empresa">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD0CB3DA-65CF-1B6F-89B2-111DBBA63782" name="T_SAJK_Atendimento">
 <createdBy>Usuario</createdBy>
-<createdTime>2022-03-10 14:45:13 UTC</createdTime>
+<createdTime>2022-03-10 15:13:26 UTC</createdTime>
 <ownerDesignName>ModelagemJK</ownerDesignName>
 <engineerTo>
 <item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_empresa" id="8DDB6A8F-B331-20C7-1C10-91AC788EF5F6">
+<Attribute name="cd_atendimento" id="5A0DBD40-F136-1A11-A88E-880B2E227ACD">
 <createdBy>Usuario</createdBy>
-<createdTime>2022-03-10 14:54:18 UTC</createdTime>
+<createdTime>2022-03-10 15:14:08 UTC</createdTime>
 <ownerDesignName>ModelagemJK</ownerDesignName>
 <engineerTo>
 <item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
@@ -25,18 +25,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nome" id="4C2D68BC-CE75-53FB-E09E-4A14A6C1FF56">
-<createdBy>Usuario</createdBy>
-<createdTime>2022-03-10 14:54:37 UTC</createdTime>
-<ownerDesignName>ModelagemJK</ownerDesignName>
-<engineerTo>
-<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

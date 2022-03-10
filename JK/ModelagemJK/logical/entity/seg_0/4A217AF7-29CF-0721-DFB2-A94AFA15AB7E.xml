@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_proprietário" id="A21D7B02-5D05-6947-7BCE-7E32517537E6">
+<Attribute name="cd_cliente" id="A21D7B02-5D05-6947-7BCE-7E32517537E6">
 <createdBy>Usuario</createdBy>
 <createdTime>2022-03-09 17:35:34 UTC</createdTime>
 <ownerDesignName>ModelagemJK</ownerDesignName>
@@ -35,6 +35,19 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="81FA8554-901E-DFCF-8D1B-CA1D294F17CE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 15:18:25 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
