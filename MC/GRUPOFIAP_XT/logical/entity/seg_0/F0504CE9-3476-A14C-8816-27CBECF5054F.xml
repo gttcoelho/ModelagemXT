@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0504CE9-3476-A14C-8816-27CBECF5054F" name="T_SGV_VIDEO_PROD">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:22:41 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_video" id="AFAEAAAB-1188-220F-875D-D5107D82C581">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:23:25 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="link_video" id="6A58C089-B896-DF1D-07DB-55EFF8959F91">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:25:10 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_video" id="7EDA867E-EB2B-801A-09E6-3B2859EC80F1">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:25:52 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

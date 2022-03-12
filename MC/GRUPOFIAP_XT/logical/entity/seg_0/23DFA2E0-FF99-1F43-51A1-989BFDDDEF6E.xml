@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23DFA2E0-FF99-1F43-51A1-989BFDDDEF6E" name="T_SGV_CAT_VIDEO_PRODUTO">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:29:29 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cat_video" id="5C47C8B9-8214-04A2-A152-FB01581ACE7A">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:29:59 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cat_video" id="435CB891-9882-453D-03A3-CA71567E1DD8">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:30:33 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59F2F08D-B14E-31CE-1604-6E23178A31EE" name="T_SGV_CAT_VIDEO_PRODUTO PK">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:30:30 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C47C8B9-8214-04A2-A152-FB01581ACE7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="415F2EDE-9B15-118F-AC11-CF4BC75FB7F7">
+<createdBy>caior</createdBy>
+<modifiedBy>caior</modifiedBy>
+<createdTime>2022-03-09 02:20:16 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="021586FA-4A19-1BDE-4CDE-ED342AA0F1A4" otype="Entity" vid="43991F4A-E160-C3F7-1B92-9D076F1CFF9E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="36" y="295" width="170" height="66"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="032BF646-2A77-6A25-A29C-6F8BEFAC5E26" otype="Entity" vid="8680E78D-39E8-8B2C-6ECF-1A48FC30A5CD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="283" y="120" width="170" height="140"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="23DFA2E0-FF99-1F43-51A1-989BFDDDEF6E" otype="Entity" vid="BED0DB08-3932-B86D-9EB3-8CF480A06093">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1005" y="596" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="690F2159-4E7E-D575-B609-12FABA274795" otype="Entity" vid="3446BC97-F054-4104-A434-7736AAE7BC91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="376" y="655" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="6BBB2DB6-B882-A2E2-8F97-879B5932448E" otype="Note" vid="167FDD4A-F6E1-4D8B-C1B7-75D2933CE31C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="981" y="759" width="256" height="93"/>
+<comment>As FK chaves estrangeiras aparecerao automaticamente quando fizer as relaçoes das tabelas.
+Não foram acrescentadas as constraints CHEK nas tabelas para checar os estatus
+
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="784BDB2D-20CD-34C0-BACF-7CE10B9A078B" otype="Entity" vid="CA6BF801-0C98-BF17-64A2-F844135BFD7E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="666" y="123" width="170" height="141"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8AEA95AA-E596-0C2E-5570-5DFA8647212E" otype="Entity" vid="6EAD1CD7-88AA-07C7-D771-32D1B3C5EA0F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="48" y="453" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DAF14E92-C764-BFA1-A321-AE5392507423" otype="Entity" vid="9E0F4ECD-A65F-CD3D-BFAE-EB2CEF96BE91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="338" y="455" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E8E4A9FA-85A0-42D0-FA26-61A08887DEF1" otype="Entity" vid="732A0396-C591-5971-9F5A-6733C30E6712">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="671" y="348" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EB1FDEA3-D6AF-4582-B523-071F783A9AA2" otype="Entity" vid="E47E1E06-D6F4-BEAD-CB18-3B0D1B981582">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="677" y="540" width="170" height="158"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F0504CE9-3476-A14C-8816-27CBECF5054F" otype="Entity" vid="E5862078-D275-FC57-BCC3-8A16E782844C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="983" y="364" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>
