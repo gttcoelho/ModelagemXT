@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="021586FA-4A19-1BDE-4CDE-ED342AA0F1A4" name="T_SGV_VIS_VIDEO">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:41:02 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_vis" id="AAE2C616-804D-A37B-4498-B2AEBFFB18DC">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:41:28 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vis" id="D6E179B2-9B90-C4CC-BC67-69D0289385CE">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:42:00 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A8892C9-ADB6-E847-F45E-064F6802F635" name="T_SGV_VIS_VIDEO PK">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:41:57 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAE2C616-804D-A37B-4498-B2AEBFFB18DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

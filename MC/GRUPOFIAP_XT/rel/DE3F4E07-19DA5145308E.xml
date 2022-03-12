@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="DE3F4E07-9726-0F86-F1E9-19DA5145308E" mainViewID="A9D972ED-2065-386D-EBD3-6AF6C2B01D22">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-09 02:10:27 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

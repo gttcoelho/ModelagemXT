@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6F9F9A04-B305-4E24-4D79-387053CE2F30" mainViewID="415F2EDE-9B15-118F-AC11-CF4BC75FB7F7">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-09 02:10:19 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

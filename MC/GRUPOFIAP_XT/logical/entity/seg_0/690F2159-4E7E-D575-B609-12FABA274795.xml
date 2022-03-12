@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="690F2159-4E7E-D575-B609-12FABA274795" name="T_SGV_PEDIDO">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:45:25 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pedido" id="95C34401-7B80-883F-4528-35020015160B">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:48:10 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_tp_cliente" id="EF6B42FB-7BB5-E001-9FBC-308E40478A06">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:49:07 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doc_cliente" id="305661E4-02E9-2576-2809-12918FB1F3D0">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:51:13 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_pedido" id="1CE2AF9C-B14A-D93F-F4A6-B53E51038681">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:54:15 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_total" id="45660790-D392-7C35-DA16-56EF9ECBC6DA">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:55:09 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31175A5A-F10A-EEFD-B1C7-1F93044F4071" name="T_SGV_PEDIDO PK">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:48:58 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95C34401-7B80-883F-4528-35020015160B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

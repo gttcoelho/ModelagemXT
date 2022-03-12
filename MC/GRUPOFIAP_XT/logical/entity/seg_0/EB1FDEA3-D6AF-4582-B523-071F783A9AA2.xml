@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB1FDEA3-D6AF-4582-B523-071F783A9AA2" name="T_SGV_FUNC">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:14:19 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_func" id="2C76E16F-EF4A-0A07-5345-008FCA2B882D">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:14:46 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_func" id="CDDD6AE3-2A0F-EDFC-4F73-FE685ABF99FE">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:25:34 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nasc_func" id="612DDD79-9120-B88C-3335-FA6FE30154FD">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:26:30 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_tel_func" id="EB3F0696-1D0E-1AA5-AF10-50C9BBE0036C">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:30:35 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_func" id="4E2BEADC-97F9-C92D-CDB1-33AD6070F60F">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:34:07 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_func" id="14DC279E-6CF4-F07D-B92A-E4B60D63E58F">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:05:19 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento_func" id="8D5BEEEA-DBAF-15DB-D5A1-A5B955A7AB2D">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-11 00:06:14 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16A3261D-13D2-20EB-FEA6-40E5FA1C99E4" name="T_SGV_FUNC PK">
+<createdBy>caior</createdBy>
+<createdTime>2022-03-10 23:15:24 UTC</createdTime>
+<ownerDesignName>GRUPOFIAP_XT</ownerDesignName>
+<engineerTo>
+<item key="DE3F4E07-9726-0F86-F1E9-19DA5145308E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C76E16F-EF4A-0A07-5345-008FCA2B882D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
