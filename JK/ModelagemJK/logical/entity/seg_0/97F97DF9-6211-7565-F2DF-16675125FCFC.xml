@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97F97DF9-6211-7565-F2DF-16675125FCFC" name="T_SAJK_Bairro">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:14:49 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_bairro" id="41A725F5-7DAC-3DAC-74AE-2356188FC4A5">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:15:10 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_bairro" id="D1FE178D-1FF1-2255-9FBD-55F8688093DC">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:15:25 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidade" id="0040F388-4D39-10D3-188F-C6CA65D05D93">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:15:47 UTC</createdTime>
+<generatorID>ACA7676A-50FF-B2E8-0E36-6950F1EFA6AA</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>73197FB1-8110-05A5-4687-639E7BE67736</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69F12D72-1300-88E3-B712-1D158B84248E" name="T_SAJK_Bairro PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:15:23 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41A725F5-7DAC-3DAC-74AE-2356188FC4A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

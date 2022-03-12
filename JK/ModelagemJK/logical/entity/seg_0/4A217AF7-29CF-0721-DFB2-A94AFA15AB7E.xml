@@ -54,6 +54,21 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_cargo" id="7630C066-9ADA-3C63-80D0-A81E3612574A">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:02:00 UTC</createdTime>
+<generatorID>E9A23298-A14F-F4FA-51CF-8BB6ED3BD1A5</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5E035CDC-D366-8B0A-6F05-93EB0ADB9638</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D91E9068-489B-ACEB-E21E-9BFC3B439911" name="T_SAJK_Cliente PK">
