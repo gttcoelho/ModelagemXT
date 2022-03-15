@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Localizarv5" directorySegmentName="seg_0" id="D3D48520-847B-9A1C-A963-3C8AF3F1CC88">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-12 23:12:28 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<sourcePk>292298E4-2AB9-336C-97C2-C88628A164F2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1C6166A-4C1C-B1DA-F008-F1FDD920923D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5ABBEA44-7B8F-D683-2B91-22216444824D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

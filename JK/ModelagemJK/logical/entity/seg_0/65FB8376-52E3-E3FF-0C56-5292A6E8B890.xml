@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65FB8376-52E3-E3FF-0C56-5292A6E8B890" name="T_SAJK_Agenda">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:39:02 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_agenda" id="8C210CB0-729C-2D5A-16D9-3B9F9CAE74A0">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:39:13 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="EA72355B-520E-FB9A-300F-12B9EADBFA55">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:39:24 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cargo" id="7DEAE4A2-C36C-8F3D-4F5B-7467604DBD79">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:39:49 UTC</createdTime>
+<generatorID>2A5389FE-B4A1-8548-C12A-FE95DFB0539A</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>13044051-EB3C-5BBD-8103-55D540C1B5F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_compromisso" id="76DB22DC-29C8-714A-8ACF-E35791B5BFAD">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:42:35 UTC</createdTime>
+<generatorID>ED6D27A0-0C7A-B75D-50F9-4D5E075BDA2D</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>26EE4D7A-5DAF-5476-9CFC-32DF0F9A8B3B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="622A2B6D-6B82-11FC-CB7B-E4151F83931F" name="T_SAJK_Agenda PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:39:40 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C210CB0-729C-2D5A-16D9-3B9F9CAE74A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
