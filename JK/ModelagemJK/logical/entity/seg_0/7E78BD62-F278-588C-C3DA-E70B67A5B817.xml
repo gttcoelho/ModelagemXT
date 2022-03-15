@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E78BD62-F278-588C-C3DA-E70B67A5B817" name="T_SAJK_Empresa">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 14:45:13 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_canal" id="A61E1119-EC20-9F1F-2F35-F1C3215FC6ED">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 19:30:41 UTC</createdTime>
+<generatorID>85E2B6C5-008C-8D91-1A4C-8C59E5FCA373</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>233F58AD-5941-8447-266A-4BA94B0E3CB7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="é_cliente" id="42BF6790-6642-5884-0BB3-676C3E0A0390">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 19:48:48 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ramo" id="736D9C97-A352-6D41-A38A-25BDDC18BBC5">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:10:41 UTC</createdTime>
+<generatorID>CD6A4EB4-517D-0B8F-78BA-6AF1653AAB59</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>2B0D9591-7634-B79E-7DC1-D15AEA8EF0BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="32C36516-40A3-A736-9326-B74E8F90CCA5">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-14 19:12:27 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razão social" id="84E2D060-9B42-6660-0867-019356BEA39B">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-14 19:12:39 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome fantasia" id="29EED845-1344-DC0C-6553-8F5A77A6C71D">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-14 19:12:54 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fundação" id="5A8662F5-0DA6-15C3-6A1A-AF9107C21B6C">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-14 19:13:02 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origem de contato" id="491C66AF-33E1-C89D-C14E-F8B0E1EDD5E1">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-14 19:13:18 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5EAAB18-0CBC-62EB-F8E8-57A0740A8F0E" name="T_SAJK_Empresa PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:10:29 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A61E1119-EC20-9F1F-2F35-F1C3215FC6ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

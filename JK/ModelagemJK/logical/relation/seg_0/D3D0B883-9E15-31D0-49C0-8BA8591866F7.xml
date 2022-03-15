@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fabricar" directorySegmentName="seg_0" id="D3D0B883-9E15-31D0-49C0-8BA8591866F7">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:06:43 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<sourcePk>D1C7F8B2-749E-8F68-9E51-9477CF47E2F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4941C1F5-DABE-B4DC-45A4-C2F53A2285D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72370DA5-E465-62DC-4132-3866B17BD6D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

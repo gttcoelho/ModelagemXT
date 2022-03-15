@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BA78FF5-8E9F-0BDF-166C-AA31AA544BF3" name="T_SAJK_Email">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:52:17 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_email" id="4DFB4A22-C06F-38F9-B6C4-DD57B5EB6AED">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:11:51 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="EE1D9E21-494E-BB47-8CF1-9BF0A1D0571D">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:52:53 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_ativo" id="E8655E63-13F4-7D5F-77C3-9A0C0E6E3DC4">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:56:26 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_canal" id="255A0E03-6EDA-66B0-A2AB-69092B8297C7">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 19:36:17 UTC</createdTime>
+<generatorID>0AE319FA-8FC2-8411-B635-8FAA8A500018</generatorID>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>233F58AD-5941-8447-266A-4BA94B0E3CB7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A84B0B4-41DB-5C2A-0B5C-2C269F1D2E0D" name="T_SAJK_Email PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:53:16 UTC</createdTime>
+<ownerDesignName>ModelagemJK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DFB4A22-C06F-38F9-B6C4-DD57B5EB6AED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
