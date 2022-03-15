@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD0CB3DA-65CF-1B6F-89B2-111DBBA63782" name="T_SAJK_Visita">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 15:13:26 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_visita" id="5A0DBD40-F136-1A11-A88E-880B2E227ACD">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 15:14:08 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_endereco" id="6FFA7E4A-66DB-B224-1845-0FC7FF81756E">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:37:36 UTC</createdTime>
+<generatorID>0BE024B9-854A-1A4E-D0CF-7C9B0FA40F5E</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3CAF757C-3E8E-D6AC-4D3A-488A9EFBBAF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_e_hora_inicio" id="0AD4823E-950F-E491-8393-B3484C94F88F">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 19:50:44 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_e_hora_final" id="C76015DF-15A4-9551-A567-9DF6C5BC3272">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:03:42 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_atendimento" id="F304BBF0-916A-0C92-CFB6-231AC8CA1DCB">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 19:59:16 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desconto" id="BEC4C38C-23EA-3478-D198-96A5743E88B1">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 19:59:37 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="laudo" id="10FB77F7-2E83-9A77-87AD-EC355B3D64F9">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 20:05:31 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_status_manutencao" id="94B3DF37-29C0-8436-E8DD-65E098559DBD">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-13 19:01:06 UTC</createdTime>
+<generatorID>0135C1A5-9C73-05DF-ED60-C823214D55BB</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5778B48E-B46F-3744-DB68-B0980EC24A85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resumo" id="11A9C15F-A3EA-B926-2764-887E910C9CAF">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-14 19:36:57 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_agenda" id="F00A3EF1-16ED-3A12-0A85-18EF30AFCBAF">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 20:40:01 UTC</createdTime>
+<generatorID>7B824F73-B080-BB7A-4FB5-034CA8EB950E</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>8C210CB0-729C-2D5A-16D9-3B9F9CAE74A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cargo" id="0C0983F8-04C6-9083-E1DB-5FEA7DACE9EA">
+<createdBy>sandy</createdBy>
+<createdTime>2022-03-15 21:52:03 UTC</createdTime>
+<generatorID>79BE5526-87B3-E41A-EEA7-E6C63C6D0771</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>13044051-EB3C-5BBD-8103-55D540C1B5F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_visita1" id="8B85C8DD-7E49-3C5F-D947-EE7FDB03B03B">
+<createdBy>sandy</createdBy>
+<createdTime>2022-03-15 21:52:03 UTC</createdTime>
+<generatorID>478D42CF-6558-FEF4-9219-C665C0ECC927</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>2098FA52-869C-58B5-F555-54C1B57853E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62DF3DAE-ADD4-7606-055D-3913E75ECA02" name="T_SAJK_Atendimento PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:36:38 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A0DBD40-F136-1A11-A88E-880B2E227ACD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

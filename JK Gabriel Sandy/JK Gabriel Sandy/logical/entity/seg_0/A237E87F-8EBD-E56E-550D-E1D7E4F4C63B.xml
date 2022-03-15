@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A237E87F-8EBD-E56E-550D-E1D7E4F4C63B" name="T_SAJK_Telefone">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:46:00 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_telefone" id="F31F1829-A774-06D9-2D2C-F8CDE8443ECE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:49:09 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDD" id="4B6BFABD-4220-161D-CC51-BD067DFAF808">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:55:14 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDI" id="F6FD04E3-F41E-4BFD-A1BC-DF4D9ED95C2E">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:55:33 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="9614A517-FA96-304C-E7FE-0F3702386741">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:49:55 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ramal" id="6F8358BE-DC02-094F-808F-AF33B4C48BF0">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-13 18:40:27 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_ativo" id="CE611620-9043-C61B-046E-C8DE3990CDF4">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:56:07 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato" id="EC2E13E5-A676-C0CD-8B58-7C3E12D354D8">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-15 19:38:52 UTC</createdTime>
+<generatorID>3D46DE6F-6A69-DBE9-1537-78DD9CD92359</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>233F58AD-5941-8447-266A-4BA94B0E3CB7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9C3EEA6-64F6-6A99-E0D8-B8BD7A50B10E" name="T_SAJK_Telefone PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-10 16:49:52 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F31F1829-A774-06D9-2D2C-F8CDE8443ECE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B84C580-F261-9CF7-D852-F35F7B9E5AC5" name="T_SAJK_Contato_Empresa">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-11 21:19:30 UTC</createdTime>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="5479307F-4D16-AE06-3F09-8E96A2A6579E">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-11 21:25:14 UTC</createdTime>
+<generatorID>608EE5AE-6036-5882-1449-0E262A63FA0C</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>A21D7B02-5D05-6947-7BCE-7E32517537E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_empresa" id="327CE6FE-1918-51DE-7278-9CA137148B9B">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-03-11 21:28:09 UTC</createdTime>
+<generatorID>308ED0A3-F808-7227-B0FC-FF7474ECB080</generatorID>
+<ownerDesignName>Gabriel JK</ownerDesignName>
+<engineerTo>
+<item key="B7B5A3F6-07F9-4E22-08B4-E8C990FA94AC" value="true"/>
+</engineerTo>
+<referedAttribute>8DDB6A8F-B331-20C7-1C10-91AC788EF5F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
